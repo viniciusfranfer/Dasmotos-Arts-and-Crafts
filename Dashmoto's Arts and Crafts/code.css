@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+header {
+    width: 100%;
+    background-image: url('pattern.jpg');
+    max-width: 1920px;
+    position: relative;
+    top: 60px;
+}
+
+header h1 {
+    font-size: 100px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    max-width: 1920px;
+}
+
+.container {
+    margin: 100px 5px 30px;
+    position: relative;
+    top: 10px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    max-width: 1920px;
+    margin: 25px 0;
+}
+
+.subtitle {
+    font-weight: bold;
+    text-align: left;
+    font-size: 20px;
+    margin: 22px 0;
+}
+
+p {
+    text-align: left;
+}
+
+.bg-green {
+    background-color: mediumspringgreen;
+}
+
+.bg-red {
+    background-color: lightcoral;
+}
+
+.bg-blue {
+    background-color: skyblue;
+}
+
+.highlight {
+    font-weight: bold;
+    color: blue
+}
